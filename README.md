@@ -1,1 +1,7 @@
-# angular-app
+# angular-batch
+execute
+
+```bash
+bash init
+```
+

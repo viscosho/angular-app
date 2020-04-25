@@ -1,0 +1,9 @@
+echo 'Nombre de aplicación:'
+read appName
+node ab_new.js $appName
+cd $appName
+echo 'Nombre de table o entidad para CRUD:'
+read entityName
+node ab_core.js $entityName
+npm start
+exit 0
